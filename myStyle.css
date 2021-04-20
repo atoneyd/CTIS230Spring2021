@@ -16,7 +16,8 @@ h2 {
 }
 h3 {  
     color:darkgreen;  
-    background-color: lightsteelblue;  
+    background-color: lightsteelblue;
+    width: fit-content;
     font-style:italic;
     font-family:Tahoma,Georgia,serif;
     text-decoration: overline;

@@ -1,12 +1,39 @@
 body {  
     color:darkslateblue;  
+    background-color: snow;  
+    font-size:1.2em;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
 }
 h1 {  
     color:midnightblue;  
+    background-color: lightsteelblue;
+    font-family:Futura,Georgia,serif;
 }
 h2 {  
-    color:lightslategray;  
+    color:lightslategray;
+    font-weight:lighter;
+    font-family:"Courier New",Georgia,serif;
 }
 h3 {  
-    color:mediumpurple;  
+    color:darkgreen;  
+    background-color: lightsteelblue;  
+    font-style:italic;
+    font-family:Tahoma,Georgia,serif;
+    text-decoration: overline;
+}
+em {
+    background-color: lemonchiffon;
+}
+a:link {  
+    color:blue;  
+}
+a:visited {  
+    color:red;  
+}
+a:hover {  
+    color:purple;
+    text-decoration: overline;
+}
+a:active {  
+    color:orange;  
 }

@@ -3,14 +3,13 @@ body {
     background-color: snow;  
     font-size:1.2em;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-left:20%;
+    margin-right:20%;
 }
 h1 {  
     color:midnightblue;  
     background-color: lightsteelblue;
     font-family:Futura,Georgia,serif;
-}
-h2, h3 {
-    color: darkgreen;
 }
 h2 {
     font-weight:lighter;
@@ -21,13 +20,10 @@ h3 {
     font-style:italic;
     font-family:Tahoma,Georgia,serif;
     text-decoration: overline;
+    margin-top:2em;
 }
 em {
     background-color: lemonchiffon;
-}
-p em {
-    color: black;
-    font-weight: bolder;
 }
 a:link {  
     color:blue;  
@@ -42,8 +38,17 @@ a:hover {
 a:active {  
     color:orange;  
 }
+h2, h3 {
+    color: darkgreen;
+}
+p em {
+    color: black;
+    font-weight: bolder;
+}
 p.intro {
     font-style: italic;
+    width:80%;
+    padding:5%;
 }
 p.background {
     background-color: seashell;
@@ -53,6 +58,9 @@ p.names {
 }
 img#gcpimage {  
     width:30%;  
+}
+img#oconnorimage {  
+    width:30%;
 }
 h3#introheader {
     font-size:1.4em;

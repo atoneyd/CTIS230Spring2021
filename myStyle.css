@@ -9,13 +9,14 @@ h1 {
     background-color: lightsteelblue;
     font-family:Futura,Georgia,serif;
 }
-h2 {  
-    color:lightslategray;
+h2, h3 {
+    color: darkgreen;
+}
+h2 {
     font-weight:lighter;
     font-family:"Courier New",Georgia,serif;
 }
 h3 {  
-    color:darkgreen;  
     background-color: lightsteelblue;
     font-style:italic;
     font-family:Tahoma,Georgia,serif;
@@ -23,6 +24,10 @@ h3 {
 }
 em {
     background-color: lemonchiffon;
+}
+p em {
+    color: black;
+    font-weight: bolder;
 }
 a:link {  
     color:blue;  
@@ -36,4 +41,19 @@ a:hover {
 }
 a:active {  
     color:orange;  
+}
+p.intro {
+    font-style: italic;
+}
+p.background {
+    background-color: seashell;
+}
+p.names {
+    font-weight: bold;
+}
+img#gcpimage {  
+    width:30%;  
+}
+h3#introheader {
+    font-size:1.4em;
 }

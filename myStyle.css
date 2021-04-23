@@ -49,6 +49,9 @@ p.intro {
     font-style: italic;
     width:80%;
     padding:5%;
+    background-color:aliceblue;
+    border-style:dotted;
+    margin-left:5%;
 }
 p.background {
     background-color: seashell;
@@ -64,4 +67,10 @@ img#oconnorimage {
 }
 h3#introheader {
     font-size:1.4em;
+}
+div.name {
+    padding:5%;
+    margin-bottom:5%;
+    background-color:aliceblue;
+    border-style:dashed;
 }

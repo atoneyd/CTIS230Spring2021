@@ -15,6 +15,7 @@ h1 {
 h2 {
     font-weight:lighter;
     font-family:"Courier New",Georgia,serif;
+    text-align:center;
 }
 h3 {  
     background-color: lightsteelblue;
@@ -65,6 +66,7 @@ p.items {
 }
 p.names {
     font-weight: bold;
+    text-indent:2em;
 }
 img#gcpimage {  
     width:30%;  
@@ -75,6 +77,9 @@ img#gcpimage {
 }
 img#oconnorimage {  
     width:30%;
+}
+img#oconnorimage:hover {  
+    width:50%;
 }
 h3#introheader {
     font-size:1.4em;
@@ -98,4 +103,8 @@ div.navigation, div.foot {
 }
 div.foot {
     margin-top:3%;
+}
+p.citations {
+    padding-left:2em;
+    text-indent:-2em;
 }

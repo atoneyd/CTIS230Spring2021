@@ -67,6 +67,10 @@ p.names {
 }
 img#gcpimage {  
     width:30%;  
+    float:left;
+    padding-right:2em;
+    padding-bottom:.8em;
+    padding-top:3.7em;
 }
 img#oconnorimage {  
     width:30%;

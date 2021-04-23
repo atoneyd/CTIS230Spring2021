@@ -52,9 +52,15 @@ p.intro {
     background-color:aliceblue;
     border-style:dotted;
     margin-left:5%;
+    text-align:center;
 }
 p.background {
     background-color: seashell;
+    text-indent:2em;
+}
+p.items {
+    background-color:lavender;
+    text-indent:2em;
 }
 p.names {
     font-weight: bold;

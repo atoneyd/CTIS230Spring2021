@@ -108,3 +108,8 @@ p.citations {
     padding-left:2em;
     text-indent:-2em;
 }
+p.citations em {
+    font-weight:normal;
+    color:black;
+    background-color:seashell;
+}

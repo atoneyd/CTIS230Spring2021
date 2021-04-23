@@ -10,6 +10,7 @@ h1 {
     color:midnightblue;  
     background-color: lightsteelblue;
     font-family:Futura,Georgia,serif;
+    text-align: center;
 }
 h2 {
     font-weight:lighter;
@@ -29,7 +30,7 @@ a:link {
     color:blue;  
 }
 a:visited {  
-    color:red;  
+    color:darkgreen;  
 }
 a:hover {  
     color:purple;
@@ -83,4 +84,15 @@ div.name {
     margin-bottom:5%;
     background-color:aliceblue;
     border-style:dashed;
+}
+div.flexible {  
+    display:flex;  
+}
+div.navigation {
+    width:40%;
+    text-align:center;
+    background-color: lightgray;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-style:double;
 }

@@ -88,11 +88,14 @@ div.name {
 div.flexible {  
     display:flex;  
 }
-div.navigation {
+div.navigation, div.foot {
     width:40%;
     text-align:center;
     background-color: lightgray;
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top:3%;
+    padding-bottom:3%;
     border-style:double;
+}
+div.foot {
+    margin-top:3%;
 }

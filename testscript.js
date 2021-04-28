@@ -6,6 +6,8 @@ otheritem = document.getElementById("buttontest");
 thebutton2 = document.getElementById("thebutton2");  
 otheritem2 = document.getElementById("buttontest2");
 textentry = document.getElementById("myinput");
+thebutton3 = document.getElementById("thebutton3");
+thebutton4 = document.getElementById("thebutton4");
 
 //Gives myItem an event listener, saying something should happen(execute onClick function) when it is clicked("click")
 myitem.addEventListener("click", onClick);
@@ -14,6 +16,8 @@ myitem.addEventListener("mouseout", onMouseOut)
 thebutton.addEventListener("click", onButtonClick);
 thebutton2.addEventListener("click", onButtonClick2);
 textentry.addEventListener("change", onChange);
+thebutton3.addEventListener("click", onButtonClick3);
+thebutton4.addEventListener("click", onButtonClick4);
 
 //Tells myItem what to do when its clicked(change text color to green)
 function onClick() { //function to be executed when item is clicked
@@ -35,5 +39,11 @@ function onButtonClick2() {
 function onChange() {  
     newtext = myinput.value;  
     otheritem.innerHTML = newtext;  
+}
+function onButtonClick3() {  
+    otheritem.style.color = "darkslateblue";  
+}
+function onButtonClick4() {  
+    otheritem2.style.backgroundColor = "seashell";  
 }
   

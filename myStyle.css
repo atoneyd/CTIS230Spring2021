@@ -47,6 +47,10 @@ p em {
     color: black;
     font-weight: bolder;
 }
+p {
+    line-height:1.4em;
+    font-size:1.1em;
+}
 p.intro {
     font-style: italic;
     width:80%;

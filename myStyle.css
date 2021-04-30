@@ -6,19 +6,24 @@ body {
     margin-left:20%;
     margin-right:20%;
 }
-h1 {  
-    color:midnightblue;  
+h1, h3 {
     background-color: lightsteelblue;
+}
+h1, h2, p.intro {
+    text-align:center;
+}
+h2, h3 {
+    color: darkgreen;
+}
+h1 {  
+    color:midnightblue;
     font-family:Futura,Georgia,serif;
-    text-align: center;
 }
 h2 {
     font-weight:lighter;
     font-family:"Courier New",Georgia,serif;
-    text-align:center;
 }
-h3 {  
-    background-color: lightsteelblue;
+h3 { 
     font-style:italic;
     font-family:Tahoma,Georgia,serif;
     text-decoration: overline;
@@ -40,9 +45,6 @@ a:hover {
 a:active {  
     color:orange;  
 }
-h2, h3 {
-    color: darkgreen;
-}
 p em {
     color: black;
     font-weight: bolder;
@@ -58,19 +60,18 @@ p.intro {
     background-color:aliceblue;
     border-style:dotted;
     margin-left:5%;
-    text-align:center;
+}
+p.background, p.items, p.names {
+    text-indent:2em;
 }
 p.background {
     background-color: seashell;
-    text-indent:2em;
 }
 p.items {
     background-color:lavender;
-    text-indent:2em;
 }
 p.names {
     font-weight: bold;
-    text-indent:2em;
 }
 img#gcpimage {  
     width:30%;  
@@ -117,7 +118,6 @@ p.citations {
 }
 p.citations em {
     font-weight:normal;
-    color:black;
     background-color:seashell;
 }
 button {

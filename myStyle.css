@@ -78,7 +78,6 @@ img#gcpimage {
     float:left;
     padding-right:2em;
     padding-bottom:.8em;
-    padding-top:3.7em;
 }
 img#oconnorimage {  
     width:30%;
@@ -132,6 +131,9 @@ button {
     img#oconnorimage {
         width:40%;
     }
+    p {
+        font-size:.9em;
+    }
 }
 @media (orientation:portrait) {
     footer div.flexible {
@@ -143,5 +145,12 @@ button {
     }
     p.citations a {
         word-wrap:break-word;
+    }
+    h1 {
+        font-size:.8em;
+    }
+    img#gcpimage {
+        padding-right:1em;
+        padding-bottom:.2em;
     }
 }

@@ -124,3 +124,24 @@ button {
     display:block;
     margin:2% auto;
 }
+@media (max-width: 1000px) {
+    body {
+        margin-left:5%;
+        margin-right:5%;
+    }
+    img#oconnorimage {
+        width:40%;
+    }
+}
+@media (orientation:portrait) {
+    footer div.flexible {
+        display:block;
+    }
+    div.foot {
+        width:90%;
+        margin:0 auto;
+    }
+    p.citations a {
+        word-wrap:break-word;
+    }
+}

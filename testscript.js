@@ -9,6 +9,8 @@ textentry = document.getElementById("myinput");
 thebutton3 = document.getElementById("thebutton3");
 thebutton4 = document.getElementById("thebutton4");
 
+oconnorImage = document.getElementById("oconnorimage2");
+
 //Gives myItem an event listener, saying something should happen(execute onClick function) when it is clicked("click")
 myitem.addEventListener("click", onClick);
 myitem.addEventListener("mouseout", onMouseOut)
@@ -18,6 +20,8 @@ thebutton2.addEventListener("click", onButtonClick2);
 textentry.addEventListener("change", onChange);
 thebutton3.addEventListener("click", onButtonClick3);
 thebutton4.addEventListener("click", onButtonClick4);
+
+oconnorImage.addEventListener("click", expandImage);
 
 //Tells myItem what to do when its clicked(change text color to green)
 function onClick() { //function to be executed when item is clicked
@@ -45,5 +49,16 @@ function onButtonClick3() {
 }
 function onButtonClick4() {  
     otheritem2.style.backgroundColor = "seashell";  
+}
+function expandImage() {
+    if (oconnorImage.style.position == "") {
+        oconnorImage.style.position = "absolute";
+        oconnorImage.style.left = "5%";
+        oconnorImage.style.width = "90%";
+    }
+    else if (oconnorImage.style.position == "absolute") {
+        oconnorImage.style.position = "";
+        oconnorImage.style.width = "50px";
+    }
 }
   
